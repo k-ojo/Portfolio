@@ -17,7 +17,7 @@ const Index = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="relative w-40 h-40 mx-auto mb-8">
               <img
-                src="./public/placeholder.svg"
+                src="/placeholder.svg"
                 alt="Gideon Adjei"
                 className="w-full h-full rounded-full object-cover"
               />
