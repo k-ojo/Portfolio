@@ -4,11 +4,11 @@ import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, FileText } from 'l
 const Portfolio = () => {
   const projects = [
     {
-      title: "Machine Learning for Climate Data Analysis",
-      description: "Developed a deep learning model to predict climate patterns using satellite data. Achieved 92% accuracy in temperature forecasting.",
-      tech: ["Python", "TensorFlow", "Pandas", "NumPy"],
-      github: "https://github.com/yourusername/climate-ml",
-      demo: "https://climate-analysis-demo.vercel.app"
+      title: "USB",
+      description: "Built a Verilog-based USB 1.1 PHY module, handling low-level signaling and ensuring interoperability with higher protocol layers.",
+      tech: ["Verilog", "Quartus", "ModelSim", "Digital Oscilloscope"],
+      github: "https://github.com/k-ojo/usb.git"
+      //demo: "https://climate-analysis-demo.vercel.app"
     },
     {
       title: "Distributed Computing Framework",
@@ -27,24 +27,18 @@ const Portfolio = () => {
 
   const publications = [
     {
-      title: "Efficient Deep Learning Models for Real-Time Climate Prediction",
-      authors: "Your Name, Dr. Advisor, Dr. Collaborator",
-      venue: "International Conference on Machine Learning (ICML) 2024",
+      title: "Review of Homomorphic Encryption Techniques for Data Privacy in Cloud Computing",
+      authors: "Adjei, G.; HLORDJIE J.S.; OWUSU, R.S.",
+      venue: "Unpublished, 2024",
       link: "https://proceedings.mlr.press/v202/yourname24.html"
-    },
-    {
-      title: "Scalable Distributed Systems for Big Data Processing",
-      authors: "Your Name, Co-Author Name",
-      venue: "IEEE Transactions on Parallel and Distributed Systems, 2024",
-      link: "https://ieeexplore.ieee.org/document/10123456"
     }
   ];
 
   const skills = {
-    "Programming Languages": ["Python", "Java", "C++", "JavaScript", "R", "MATLAB"],
-    "Machine Learning": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "OpenCV"],
-    "Systems & Tools": ["Docker", "Kubernetes", "Git", "Linux", "AWS", "GCP"],
-    "Research Areas": ["Deep Learning", "Distributed Systems", "Climate Modeling", "Optimization"]
+    "Programming Languages": ["C/C++", "Python", "Verilog", "MATLAB", "Javascript"],
+    "Libraries": ["reg51", "pthreads", "OpenGL", "epoll/poll", "freetos"],
+    "Systems & Tools": ["Docker", "Git", "Linux"],
+    "Research Areas": ["Embedded Systems", "Quantum Computing", "Encryption Algorithms", "Optimization", "Operating Systems"]
   };
 
   return (
