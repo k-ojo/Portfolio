@@ -52,7 +52,7 @@ const Portfolio = () => {
       {/* Header */}
       <header className="bg-gray-50 border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-6 py-8">
-          <h1 className="text-4xl font-light text-gray-900 mb-2">Your Full Name</h1>
+          <h1 className="text-4xl font-light text-gray-900 mb-2">Gideon Adjei</h1>
           <p className="text-lg text-gray-600">BSc. Computer Engineering Graduate, Aspiring PhD Researcher</p>
         </div>
       </header>
@@ -79,15 +79,15 @@ const Portfolio = () => {
               <div className="space-y-3">
                 <div className="flex items-center text-gray-600">
                   <Mail className="w-4 h-4 mr-3" />
-                  <span>your.email@university.edu</span>
+                  <span>gadjei12@st.knust.edu.gh</span>
                 </div>
                 <div className="flex items-center text-gray-600">
                   <Phone className="w-4 h-4 mr-3" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+233 (59) 135-0125</span>
                 </div>
                 <div className="flex items-center text-gray-600">
                   <MapPin className="w-4 h-4 mr-3" />
-                  <span>City, State, Country</span>
+                  <span>Kumasi, Ashanti Region, Ghana</span>
                 </div>
               </div>
               
@@ -186,7 +186,7 @@ const Portfolio = () => {
       <footer className="bg-gray-50 border-t border-gray-200 mt-16">
         <div className="max-w-4xl mx-auto px-6 py-8 text-center">
           <p className="text-gray-600">
-            © 2025 Your Full Name. Available for PhD research opportunities.
+            © 2025 Gideon Adjei. Available for PhD research opportunities.
           </p>
         </div>
       </footer>
