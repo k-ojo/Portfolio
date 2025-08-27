@@ -6,22 +6,28 @@ const Portfolio = () => {
     {
       title: "USB",
       description: "Built a Verilog-based USB 1.1 PHY module, handling low-level signaling and ensuring interoperability with higher protocol layers.",
-      tech: ["Verilog", "Quartus", "ModelSim", "Digital Oscilloscope"],
+      tech: ["Verilog", "Quartus", "ModelSim", "Digital Oscilloscope", "Notion"],
       github: "https://github.com/k-ojo/usb.git"
       //demo: "https://climate-analysis-demo.vercel.app"
     },
     {
-      title: "Distributed Computing Framework",
-      description: "Built a fault-tolerant distributed system for processing large datasets across multiple nodes with automatic load balancing.",
-      tech: ["Java", "Apache Kafka", "Docker", "Kubernetes"],
-      github: "https://github.com/yourusername/distributed-framework",
-      paper: "https://arxiv.org/abs/2024.12345"
+      title: " Investigation of Encryption and Firewalls using Kathara",
+      description: "Investigated encryption algorithms and firewall configurations using Kathara to simulate network environments, enhancing understanding of network security principles.",
+      tech: ["Docker", "Kathara", "Linux", "Wireshark"],
+      github: "https://github.com/blackdreamer15/simple_shell.git",
+      //paper: "https://arxiv.org/abs/2024.12345"
     },
     {
-      title: "Neural Network Optimization Suite",
-      description: "Created optimization algorithms for neural network training, reducing computational time by 35% while maintaining accuracy.",
-      tech: ["C++", "CUDA", "PyTorch", "OpenMP"],
-      github: "https://github.com/yourusername/nn-optimization"
+      title: "Cryptographic C Library for Blockchain",
+      description: "Developed a C library implementing essential cryptographic functions for blockchain applications, including hashing.",
+      tech: ["C", "Valgrind", "GDB"],
+      github: "https://github.com/k-ojo/Knust-Computer_Labs/tree/main/blockchain/mylib"
+    },
+    {
+      title: "PilOS: A Simple Real-Time Operating System",
+      description: "Designing and implementing a lightweight real-time operating system (RTOS) for embedded systems, featuring task scheduling, inter-task communication, and resource management.",
+      tech: ["C", "Valgrind", "GDB", "QEMU", "Assembly"],
+      github: "https://github.com/k-ojo/PilOS.git"
     }
   ];
 
@@ -30,14 +36,14 @@ const Portfolio = () => {
       title: "Review of Homomorphic Encryption Techniques for Data Privacy in Cloud Computing",
       authors: "Adjei, G.; HLORDJIE J.S.; OWUSU, R.S.",
       venue: "Unpublished, 2024",
-      link: "https://proceedings.mlr.press/v202/yourname24.html"
+      link: "https://github.com/k-ojo/Review-of-Homomorphic-Encryption.git"
     }
   ];
 
   const skills = {
-    "Programming Languages": ["C/C++", "Python", "Verilog", "MATLAB", "Javascript"],
+    "Programming Languages": ["C/C++", "ARMv7 Assembly", "Python", "Verilog", "MATLAB", "Javascript"],
     "Libraries": ["reg51", "pthreads", "OpenGL", "epoll/poll", "freetos"],
-    "Systems & Tools": ["Docker", "Git", "Linux"],
+    "Systems & Tools": ["Docker", "Git", "Linux", "Make", "GDB", "Valgrind"],
     "Research Areas": ["Embedded Systems", "Quantum Computing", "Encryption Algorithms", "Optimization", "Operating Systems"]
   };
 
@@ -58,16 +64,19 @@ const Portfolio = () => {
             <div className="md:col-span-2">
               <h2 className="text-2xl font-light text-gray-900 mb-4">About Me</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                I am a Computer Engineering graduate with a strong foundation in machine learning, distributed systems, 
-                and computational research. My work focuses on developing efficient algorithms for large-scale data processing 
-                and applying deep learning techniques to solve real-world problems in climate science and optimization.
+                I am a systems-oriented engineer with a strong foundation in low-level programming, digital design,
+                and cryptography. My work spans from building hardware-level modules, such as a Verilog-based USB 1.1
+                PHY, to implementing software systems like custom shells, distributed data processors, and real-time
+                operating systems for embedded platforms. I am highly proficient in C/C++, Assembly, and Verilog,
+                with practical experience in debugging and performance optimization using tools like GDB, Valgrind, and QEMU.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                I am passionate about pursuing doctoral research in machine learning and distributed computing, 
-                with particular interest in developing scalable solutions for scientific computing applications.
+                I enjoy working at the intersection of hardware and software, where efficiency, security, and reliability are critical.
+                Beyond implementation, I am driven by research in quantum computing, optimization, and advanced system architectures,
+                and I thrive in environments that demand deep problem-solving and precision.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-xl font-light text-gray-900 mb-4">Contact</h3>
               <div className="space-y-3">
@@ -84,7 +93,7 @@ const Portfolio = () => {
                   <span>Kumasi, Ashanti Region, Ghana</span>
                 </div>
               </div>
-              
+
               <div className="flex space-x-4 mt-6">
                 <a href="https://github.com/yourusername" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <Github className="w-5 h-5" />
@@ -92,7 +101,7 @@ const Portfolio = () => {
                 <a href="https://linkedin.com/in/yourprofile" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="/cv.pdf" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <a href="/Public/cv.pdf" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <FileText className="w-5 h-5" />
                 </a>
               </div>
@@ -153,6 +162,102 @@ const Portfolio = () => {
                 <p className="text-gray-500 italic">{pub.venue}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Document Repository */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-light text-gray-900 mb-8">Document Repository</h2>
+          <div className="space-y-4">
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">Curriculum Vitae</h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    Detailed academic and professional background, including education, projects, and technical skills.
+                  </p>
+                  <span className="text-gray-500 text-xs">PDF • 2MB</span>
+                </div>
+                <a href="/documents/gideon_adjei_cv.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                  <FileText className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">USB PHY Technical Report</h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    Comprehensive documentation of the Verilog-based USB 1.1 PHY implementation and testing methodology.
+                  </p>
+                  <span className="text-gray-500 text-xs">PDF • 5MB</span>
+                </div>
+                <a href="/documents/usb_phy_report.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                  <FileText className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">PilOS Architecture Guide</h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    Design documentation for the real-time operating system, including scheduling algorithms and memory management.
+                  </p>
+                  <span className="text-gray-500 text-xs">PDF • 3MB</span>
+                </div>
+                <a href="/documents/pilos_architecture.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                  <FileText className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">Research Portfolio</h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    Collection of research summaries, publication drafts, and ongoing work in quantum computing and cryptography.
+                  </p>
+                  <span className="text-gray-500 text-xs">PDF • 8MB</span>
+                </div>
+                <a href="/documents/research_portfolio.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                  <FileText className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">Academic Transcripts</h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    Official transcripts from KNUST Computer Engineering program with course details and grades.
+                  </p>
+                  <span className="text-gray-500 text-xs">PDF • 1MB</span>
+                </div>
+                <a href="/documents/academic_transcripts.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                  <FileText className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">Project Code Samples</h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    Curated code examples showcasing C/C++, Verilog, and Assembly programming expertise with detailed comments.
+                  </p>
+                  <span className="text-gray-500 text-xs">PDF • 4MB</span>
+                </div>
+                <a href="/documents/code_samples.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                  <FileText className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
           </div>
         </section>
 
