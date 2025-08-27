@@ -4,6 +4,13 @@ import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, FileText } from 'l
 const Portfolio = () => {
   const projects = [
     {
+      title: "CMOS analog integrated Circuit Design and Simulation",
+      description: "Built a Verilog-based USB 1.1 PHY module, handling low-level signaling and ensuring interoperability with higher protocol layers.",
+      tech: ["Vertuoso", "CentOS", "Cadance Design System", "Digital Oscilloscope"],
+      github: "https://github.com/k-ojo/usb.git"
+      //demo: "https://climate-analysis-demo.vercel.app"
+    },
+    {
       title: "USB",
       description: "Built a Verilog-based USB 1.1 PHY module, handling low-level signaling and ensuring interoperability with higher protocol layers.",
       tech: ["Verilog", "Quartus", "ModelSim", "Digital Oscilloscope", "Notion"],
@@ -111,7 +118,7 @@ const Portfolio = () => {
 
         {/* Projects */}
         <section className="mb-16">
-          <h2 className="text-2xl font-light text-gray-900 mb-8">Selected Projects</h2>
+          <h2 className="text-2xl font-light text-gray-900 mb-8">Selected Academic Projects and Research</h2>
           <div className="space-y-8">
             {projects.map((project, index) => (
               <div key={index} className="border-l-2 border-gray-200 pl-6">
@@ -187,13 +194,13 @@ const Portfolio = () => {
             <div className="border-l-2 border-gray-200 pl-6">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
-                  <h3 className="text-lg font-medium text-gray-900 mb-1">USB PHY Technical Report</h3>
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">CMOS Analog IC Design</h3>
                   <p className="text-gray-600 text-sm mb-2">
-                    Comprehensive documentation of the Verilog-based USB 1.1 PHY implementation and testing methodology.
+                    Comprehensive documentation of the CMOS analog IC design simulation and testing methodology.
                   </p>
-                  <span className="text-gray-500 text-xs">PDF • 5MB</span>
+                  <span className="text-gray-500 text-xs">PDF • 3MB</span>
                 </div>
-                <a href="/documents/usb_phy_report.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/documents/vlsi_lab.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
@@ -202,18 +209,19 @@ const Portfolio = () => {
             <div className="border-l-2 border-gray-200 pl-6">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
-                  <h3 className="text-lg font-medium text-gray-900 mb-1">PilOS Architecture Guide</h3>
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">Encryption and Firewalls using Kathara</h3>
                   <p className="text-gray-600 text-sm mb-2">
-                    Design documentation for the real-time operating system, including scheduling algorithms and memory management.
+                  Documentation for the Investigation of Encryption and Firewalls using Kathara.
                   </p>
                   <span className="text-gray-500 text-xs">PDF • 3MB</span>
                 </div>
-                <a href="/documents/pilos_architecture.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/documents/encryption_and_firewalls.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
             </div>
 
+            {/*
             <div className="border-l-2 border-gray-200 pl-6">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
@@ -228,6 +236,8 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
+            */}
+
 
             <div className="border-l-2 border-gray-200 pl-6">
               <div className="flex items-start justify-between">
@@ -238,12 +248,13 @@ const Portfolio = () => {
                   </p>
                   <span className="text-gray-500 text-xs">PDF • 1MB</span>
                 </div>
-                <a href="/documents/academic_transcripts.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/documents/transcript.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
             </div>
 
+            {/*
             <div className="border-l-2 border-gray-200 pl-6">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
@@ -258,7 +269,9 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
+            */}
           </div>
+          
         </section>
 
         {/* Skills */}
