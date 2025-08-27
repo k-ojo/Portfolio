@@ -101,7 +101,7 @@ const Portfolio = () => {
                 <a href="https://linkedin.com/in/yourprofile" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="/Public/cv.pdf" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <a href="/documents/cv.pdf" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <FileText className="w-5 h-5" />
                 </a>
               </div>
@@ -176,9 +176,9 @@ const Portfolio = () => {
                   <p className="text-gray-600 text-sm mb-2">
                     Detailed academic and professional background, including education, projects, and technical skills.
                   </p>
-                  <span className="text-gray-500 text-xs">PDF • 2MB</span>
+                  <span className="text-gray-500 text-xs">PDF • 0.1MB</span>
                 </div>
-                <a href="/documents/gideon_adjei_cv.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/documents/cv.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
