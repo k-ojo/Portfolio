@@ -213,7 +213,7 @@ const Portfolio = () => {
                   <p className="text-gray-600 text-sm mb-2">
                   Documentation for the Investigation of Encryption and Firewalls using Kathara.
                   </p>
-                  <span className="text-gray-500 text-xs">PDF • 3MB</span>
+                  <span className="text-gray-500 text-xs">PDF • 1.5MB</span>
                 </div>
                 <a href="/documents/encryption_and_firewalls.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
@@ -246,7 +246,7 @@ const Portfolio = () => {
                   <p className="text-gray-600 text-sm mb-2">
                     Official transcripts from KNUST Computer Engineering program with course details and grades.
                   </p>
-                  <span className="text-gray-500 text-xs">PDF • 1MB</span>
+                  <span className="text-gray-500 text-xs">PDF • 0.5MB</span>
                 </div>
                 <a href="/documents/transcript.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
