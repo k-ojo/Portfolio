@@ -43,7 +43,7 @@ const Portfolio = () => {
       title: "Review of Homomorphic Encryption Techniques for Data Privacy in Cloud Computing",
       authors: "Adjei, G.; HLORDJIE J.S.; OWUSU, R.S.",
       venue: "Unpublished, 2024",
-      link: "https://github.com/k-ojo/Review-of-Homomorphic-Encryption.git"
+      link: "/documents/HE_Review.pdf"
     }
   ];
 
