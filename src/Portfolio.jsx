@@ -43,7 +43,7 @@ const Portfolio = () => {
       title: "Review of Homomorphic Encryption Techniques for Data Privacy in Cloud Computing",
       authors: "Adjei, G.; HLORDJIE J.S.; OWUSU, R.S.",
       venue: "Unpublished, 2024",
-      link: "/documents/HE_Review.pdf"
+      link: "/HE_Review.pdf"
     }
   ];
 
@@ -108,7 +108,7 @@ const Portfolio = () => {
                 <a href="https://linkedin.com/in/yourprofile" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="/documents/cv.pdf" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <a href="/cv.pdf" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <FileText className="w-5 h-5" />
                 </a>
               </div>
@@ -185,7 +185,7 @@ const Portfolio = () => {
                   </p>
                   <span className="text-gray-500 text-xs">PDF • 0.1MB</span>
                 </div>
-                <a href="/documents/cv.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/cv.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
@@ -200,7 +200,7 @@ const Portfolio = () => {
                   </p>
                   <span className="text-gray-500 text-xs">PDF • 3MB</span>
                 </div>
-                <a href="/documents/vlsi_lab.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/vlsi_lab.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
@@ -215,7 +215,7 @@ const Portfolio = () => {
                   </p>
                   <span className="text-gray-500 text-xs">PDF • 1.5MB</span>
                 </div>
-                <a href="/documents/encryption_and_firewalls.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/encryption_and_firewalls.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
@@ -231,7 +231,7 @@ const Portfolio = () => {
                   </p>
                   <span className="text-gray-500 text-xs">PDF • 8MB</span>
                 </div>
-                <a href="/documents/research_portfolio.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/research_portfolio.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
@@ -248,7 +248,7 @@ const Portfolio = () => {
                   </p>
                   <span className="text-gray-500 text-xs">PDF • 0.5MB</span>
                 </div>
-                <a href="/documents/transcript.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/transcript.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
@@ -264,7 +264,7 @@ const Portfolio = () => {
                   </p>
                   <span className="text-gray-500 text-xs">PDF • 4MB</span>
                 </div>
-                <a href="/documents/code_samples.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/code_samples.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
