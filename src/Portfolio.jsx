@@ -71,11 +71,7 @@ const Portfolio = () => {
             <div className="md:col-span-2">
               <h2 className="text-2xl font-light text-gray-900 mb-4">About Me</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                I am a systems-oriented engineer with a strong foundation in low-level programming, digital design,
-                and cryptography. My work spans from building hardware-level modules, such as a Verilog-based USB 1.1
-                PHY, to implementing software systems like custom shells, distributed data processors, and real-time
-                operating systems for embedded platforms. I am highly proficient in C/C++, Assembly, and Verilog,
-                with practical experience in debugging and performance optimization using tools like GDB, Valgrind, and QEMU.
+              Gideon Adjei — Computer Engineering student at KNUST | Researcher in VLSI, Embedded Systems, and Secure Computing.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 I enjoy working at the intersection of hardware and software, where efficiency, security, and reliability are critical.
