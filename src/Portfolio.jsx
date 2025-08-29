@@ -5,9 +5,10 @@ const Portfolio = () => {
   const projects = [
     {
       title: "CMOS analog integrated Circuit Design and Simulation",
-      description: "Built a Verilog-based USB 1.1 PHY module, handling low-level signaling and ensuring interoperability with higher protocol layers.",
+      description: "Designed and simulated CMOS analog circuits, including AND gates and NOT gates, using Cadence Virtuoso on a 180nm process technology.",
       tech: ["Vertuoso", "CentOS", "Cadence Design System", "Digital Oscilloscope"],
-      github: "https://github.com/k-ojo/usb.git"
+      github: "https://gideonadjei.site/vlsi_lab.pdf",
+      paper: "https://gideonadjei.site/vlsi_lab.pdf"
       //demo: "https://climate-analysis-demo.vercel.app"
     },
     {
@@ -175,7 +176,7 @@ const Portfolio = () => {
             <div className="border-l-2 border-gray-200 pl-6">
               <div className="flex items-start justify-between">
                 <div>
-                  <h3 className="text-lg font-medium text-gray-900 mb-1">Dean's List Recognition</h3>
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">Provost's List Recognition</h3>
                   <p className="text-gray-600 mb-1">College of Engineering, KNUST</p>
                   <p className="text-gray-500 text-sm">Awarded to students with a cumulative GPA above 75.00 in the College of Engineering</p>
                 </div>
@@ -189,6 +190,10 @@ const Portfolio = () => {
                   <h3 className="text-lg font-medium text-gray-900 mb-1">HDLBits Highest Rank</h3>
                   <p className="text-gray-600 mb-1">HDLBits</p>
                   <p className="text-gray-500 text-sm">Completed all 182 Verilog exercises, mastering digital logic, FSMs, and hierarchical design.</p>
+                  <a href="https://hdlbits.01xz.net/wiki/Special:VlgStats/52580FFF13BC1FD6" className="flex items-center text-blue-600 hover:text-blue-800 text-sm mt-2">
+                    <ExternalLink className="w-4 h-4 mr-1" />
+                    View Profile
+                  </a>
                 </div>
                 <span className="text-gray-500 text-sm">2024</span>
               </div>
