@@ -18,7 +18,7 @@ const Portfolio = () => {
       //demo: "https://climate-analysis-demo.vercel.app"
     },
     {
-      title: " Investigation of Encryption and Firewalls using Kathara",
+      title: " Investigation of Encryption and Firewalls Using Kathara",
       description: "Investigated encryption algorithms and firewall configurations using Kathara to simulate network environments, enhancing understanding of network security principles.",
       tech: ["Docker", "Kathara", "Linux", "Wireshark"],
       github: "https://github.com/blackdreamer15/simple_shell.git",
@@ -71,7 +71,7 @@ const Portfolio = () => {
             <div className="md:col-span-2">
               <h2 className="text-2xl font-light text-gray-900 mb-4">About Me</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-              Gideon Adjei — Computer Engineering student at KNUST | Researcher in VLSI, Embedded Systems, and Secure Computing.
+                Gideon Adjei, Computer Engineering student at KNUST | Researcher in VLSI, Embedded Systems, and Secure Computing.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 I enjoy working at the intersection of hardware and software, where efficiency, security, and reliability are critical.
@@ -165,6 +165,45 @@ const Portfolio = () => {
                 <p className="text-gray-500 italic">{pub.venue}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Achievements & Awards */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-light text-gray-900 mb-8">Achievements & Awards</h2>
+          <div className="space-y-6">
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div>
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">Dean's List Recognition</h3>
+                  <p className="text-gray-600 mb-1">College of Engineering, KNUST</p>
+                  <p className="text-gray-500 text-sm">Awarded to students with a cumulative GPA above 75.00 in the College of Engineering</p>
+                </div>
+                <span className="text-gray-500 text-sm">2023</span>
+              </div>
+            </div>
+
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div>
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">HDLBits Highest Rank</h3>
+                  <p className="text-gray-600 mb-1">HDLBits</p>
+                  <p className="text-gray-500 text-sm">Completed all 182 Verilog exercises, mastering digital logic, FSMs, and hierarchical design.</p>
+                </div>
+                <span className="text-gray-500 text-sm">2024</span>
+              </div>
+            </div>
+
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div>
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">MTN Bright Scholarship</h3>
+                  <p className="text-gray-600 mb-1">MTN Foundation</p>
+                  <p className="text-gray-500 text-sm">Merit-based scholarship for academic excellence in Engineering</p>
+                </div>
+                <span className="text-gray-500 text-sm">2022-2024</span>
+              </div>
+            </div>
           </div>
         </section>
 
