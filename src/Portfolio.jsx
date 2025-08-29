@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       title: "CMOS analog integrated Circuit Design and Simulation",
       description: "Built a Verilog-based USB 1.1 PHY module, handling low-level signaling and ensuring interoperability with higher protocol layers.",
-      tech: ["Vertuoso", "CentOS", "Cadance Design System", "Digital Oscilloscope"],
+      tech: ["Vertuoso", "CentOS", "Cadence Design System", "Digital Oscilloscope"],
       github: "https://github.com/k-ojo/usb.git"
       //demo: "https://climate-analysis-demo.vercel.app"
     },
@@ -49,7 +49,7 @@ const Portfolio = () => {
 
   const skills = {
     "Programming Languages": ["C/C++", "ARMv7 Assembly", "Python", "Verilog", "MATLAB", "Javascript"],
-    "Libraries": ["reg51", "pthreads", "OpenGL", "epoll/poll", "freetos"],
+    "Libraries": ["reg51", "pthreads", "OpenGL", "epoll/poll", "freeRTOS"],
     "Systems & Tools": ["Docker", "Git", "Linux", "Make", "GDB", "Valgrind"],
     "Research Areas": ["Embedded Systems", "Quantum Computing", "Encryption Algorithms", "Optimization", "Operating Systems"]
   };
@@ -71,7 +71,7 @@ const Portfolio = () => {
             <div className="md:col-span-2">
               <h2 className="text-2xl font-light text-gray-900 mb-4">About Me</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-              Aspiring researcher in Computer Achitecture, VLSI, Embedded Systems, and Secure Computing.
+              Aspiring researcher in Computer Architecture, VLSI, Embedded Systems, and Secure Computing.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 I enjoy working at the intersection of hardware and software, where efficiency, security, and reliability are critical.
@@ -101,7 +101,7 @@ const Portfolio = () => {
                 <a href="https://github.com/k-ojo" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="https://linkedin.com/in/yourprofile" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <a href="https://linkedin.com/in/gideonadjei" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a href="/cv.pdf" className="text-gray-600 hover:text-gray-900 transition-colors">
