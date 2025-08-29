@@ -102,7 +102,7 @@ const Portfolio = () => {
               </div>
 
               <div className="flex space-x-4 mt-6">
-                <a href="https://github.com/yourusername" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <a href="https://github.com/k-ojo" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
                 <a href="https://linkedin.com/in/yourprofile" className="text-gray-600 hover:text-gray-900 transition-colors">
