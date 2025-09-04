@@ -72,7 +72,7 @@ const Portfolio = () => {
             <div className="md:col-span-2">
               <h2 className="text-2xl font-light text-gray-900 mb-4">About Me</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-              Aspiring researcher in Computer Architecture, VLSI, Embedded Systems, and Secure Computing.
+                Aspiring researcher in Computer Architecture, VLSI, Embedded Systems, and Secure Computing.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 I enjoy working at the intersection of hardware and software, where efficiency, security, and reliability are critical.
@@ -251,7 +251,7 @@ const Portfolio = () => {
                 <div className="flex-1">
                   <h3 className="text-lg font-medium text-gray-900 mb-1">Encryption and Firewalls using Kathara</h3>
                   <p className="text-gray-600 text-sm mb-2">
-                  Documentation for the Investigation of Encryption and Firewalls using Kathara.
+                    Documentation for the Investigation of Encryption and Firewalls using Kathara.
                   </p>
                   <span className="text-gray-500 text-xs">PDF • 1.5MB</span>
                 </div>
@@ -260,24 +260,6 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-
-            {/*
-            <div className="border-l-2 border-gray-200 pl-6">
-              <div className="flex items-start justify-between">
-                <div className="flex-1">
-                  <h3 className="text-lg font-medium text-gray-900 mb-1">Research Portfolio</h3>
-                  <p className="text-gray-600 text-sm mb-2">
-                    Collection of research summaries, publication drafts, and ongoing work in quantum computing and cryptography.
-                  </p>
-                  <span className="text-gray-500 text-xs">PDF • 8MB</span>
-                </div>
-                <a href="/research_portfolio.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
-                  <FileText className="w-4 h-4" />
-                </a>
-              </div>
-            </div>
-            */}
-
 
             <div className="border-l-2 border-gray-200 pl-6">
               <div className="flex items-start justify-between">
@@ -294,24 +276,52 @@ const Portfolio = () => {
               </div>
             </div>
 
-            {/*
             <div className="border-l-2 border-gray-200 pl-6">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
-                  <h3 className="text-lg font-medium text-gray-900 mb-1">Project Code Samples</h3>
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">Degree Certificate</h3>
                   <p className="text-gray-600 text-sm mb-2">
-                    Curated code examples showcasing C/C++, Verilog, and Assembly programming expertise with detailed comments.
+                    BSc. Computer Engineering degree certificate from KNUST.
                   </p>
-                  <span className="text-gray-500 text-xs">PDF • 4MB</span>
+                  <span className="text-gray-500 text-xs">PDF • 4.5MB</span>
                 </div>
-                <a href="/code_samples.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                <a href="/Gideon-Adjei-certificate-KNUST.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
                   <FileText className="w-4 h-4" />
                 </a>
               </div>
             </div>
-            */}
+
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">SHS Certificate</h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    WASCCE Certificate for completing Senior High School (Pope John SHS and Minor Seminary).
+                  </p>
+                  <span className="text-gray-500 text-xs">PDF • 1.7MB</span>
+                </div>
+                <a href="/WASSCE.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                  <FileText className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+
+            <div className="border-l-2 border-gray-200 pl-6">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-gray-900 mb-1">Certificate of Honour</h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    Certificate of Honour from Ridge Experimental Junior High School for leadership.
+                  </p>
+                  <span className="text-gray-500 text-xs">PDF • 4.5MB</span>
+                </div>
+                <a href="/Certificate_of_Honour.pdf" className="ml-4 text-gray-600 hover:text-gray-900">
+                  <FileText className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
           </div>
-          
+
         </section>
 
         {/* Skills */}
